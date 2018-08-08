@@ -4,8 +4,8 @@ exports.run = function(client, msg, args) {
 
 	msg.channel.createMessage({embed: {
 		color: config.options.embedColour,
-		title: `JukeBot v${config.version}`,
-		description: `Created by CrimsonXV#0387`,
+		title: `NekoBot v${config.version}`,
+		description: `Created by Looney#2062 for Lowiee's Discord Server`,
 		fields: [
 			{ name: `Uptime`,		  value: timeParser.formatSeconds(process.uptime()),						inline: true },
 			{ name: `RAM Usage`,	  value: `${(process.memoryUsage().rss / 1024 / 1024).toFixed(2)} MB`,      inline: true },
