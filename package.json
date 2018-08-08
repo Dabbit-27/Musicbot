@@ -1,5 +1,5 @@
 {
-  "name": "jukebot",
+  "name": "MusicBot",
   "version": "5.1.8",
   "description": "MusicBot for Discord",
   "main": "index.js",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CrimsonXV/JukeBot/JukeBot.git"
+    "url": ""
   },
-  "author": "CrimsonXV",
+  "author": "Jimmy",
   "license": "AGPL-3.0",
   "dependencies": {
     "buffered2": "*",
