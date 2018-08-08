@@ -1,0 +1,20 @@
+{
+
+	"keys" : {
+		"discord"    : "",
+		"youtube"    : "",
+		"soundcloud" : ""
+	},
+	"options" : {
+		"shards"      : 1,
+		"embedColour" : 2003199,
+		"prefix"      : "!"
+	},
+	"prop" : {
+		"owners"   : [],
+		"donators" : [],
+		"blocked"  : []
+	},
+	"version" : "5.1.8"
+
+}

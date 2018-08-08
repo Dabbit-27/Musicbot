@@ -1,0 +1,246 @@
+dependencies:
+  buffered2: 1.0.0
+  eris: 0.8.6
+  erlpack: github.com/hammerandchisel/erlpack/674ebfd3439ba4b7ce616709821d27630f7cdc61
+  eventemitter3: 3.1.0
+  node-opus: 0.3.0
+  snekfetch: 4.0.4
+  sodium-native: 2.2.1
+  uws: 99.0.0
+  ytdl-core: 0.24.0
+packages:
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /bindings/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-FK1hE4EtLTfXLme0ystLtyZQXxE=
+  /bindings/1.3.0:
+    dev: false
+    resolution:
+      integrity: sha512-DpLh5EzMR2kzvX1KIlVC0VkC3iZtHKTgdtZ0a3pglBZdaQFjt5S9g9xd1lE+YvXyfd6mtCeRnrUfOLYiTMlNSw==
+  /buffered2/1.0.0:
+    dependencies:
+      readable-stream: 2.3.6
+    dev: false
+    resolution:
+      integrity: sha1-dlQ22I1g1J++UpMDem1UKECHbwo=
+  /commander/2.17.1:
+    dev: false
+    resolution:
+      integrity: sha512-wPMUt6FnH2yzG95SA6mzjQOEKUU3aLaDEmzs1ti+1E9h+CsrZghRlqEM/EJ4KscsQVG8uNN4uVreUeT8+drlgg==
+  /core-util-is/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /debug/2.6.9:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+  /eris/0.8.6:
+    dependencies:
+      ws: 5.2.2
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    optionalDependencies:
+      opusscript: 0.0.4
+      tweetnacl: 1.0.0
+    resolution:
+      integrity: sha512-mEE+hMxs1YrQhu7YSs8jTUoaZC0ahWDNPLR9Iq/FmIzXYPBIEFKXpL00jbARa36Xpay7fmc/cQfJLwhebDMwuw==
+  /eventemitter3/3.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-ivIvhpq/Y0uSjcHDcOIccjmYjGLcP09MFGE7ysAwkAvkXfpZlC985pH2/ui64DKazbTW/4kN3yqozUxlXzI6cA==
+  /html-entities/1.2.1:
+    dev: false
+    engines:
+      '0': node >= 0.4.0
+    resolution:
+      integrity: sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  /ini/1.3.5:
+    dev: false
+    resolution:
+      integrity: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  /isarray/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /m3u8stream/0.3.0:
+    dependencies:
+      miniget: 1.3.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-0tvjXDIa6BolPEGo9zioQiPqfQhjopZXN3L7vZH/rZQCOLd4rPXNZc1UBMdW3TRpjNBoD0+F1X41/f0iY23rlQ==
+  /miniget/1.3.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-qvj5v1gbTvK6iVt1DqYrF0B9Lm6VAPNCa930TmTDQp6i1svDzzV8geu+e87XA14OBWDsWENptnP6BO9iJJOD9Q==
+  /ms/2.0.0:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+  /nan/2.10.0:
+    dev: false
+    resolution:
+      integrity: sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==
+  /node-gyp-build/3.4.0:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-YoviGBJYGrPdLOKDIQB0sKxuKy/EEsxzooNkOZak4vSTKT/qH0Pa6dj3t1MJjEQGsefih61IyHDmO1WW7xOFfw==
+  /node-opus/0.3.0:
+    dependencies:
+      bindings: 1.2.1
+      commander: 2.17.1
+      nan: 2.10.0
+    dev: false
+    engines:
+      node: '>=5.10.0'
+    optionalDependencies:
+      ogg-packet: 1.0.0
+    requiresBuild: true
+    resolution:
+      integrity: sha512-Hih2TCi/vQUY4D9PBiATT6fluJSjMJPLBfCNgAxJx03v6jT+UlVmXUKR62RXYWyijhXNghsFJMyeBe7MBm3cmQ==
+  /ogg-packet/1.0.0:
+    dependencies:
+      ref-struct: 1.1.0
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-RbiFchrI991c8iOR1CEGrlM6xng=
+  /opusscript/0.0.4:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-bEPZFE2lhUJYQD5yfTFO4RhbRZ937x6hRwBC1YoGacT35bwDVwKFP1+amU8NYfZL/v4EU7ZTU3INTqzYAnuP7Q==
+  /process-nextick-args/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+  /readable-stream/2.3.6:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 1.0.0
+      process-nextick-args: 2.0.0
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+  /ref-struct/1.1.0:
+    dependencies:
+      debug: 2.6.9
+      ref: 1.3.5
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-XV7mWtQc78Olxf60BYcmHkee3BM=
+  /ref/1.3.5:
+    dependencies:
+      bindings: 1.3.0
+      debug: 2.6.9
+      nan: 2.10.0
+    dev: false
+    optional: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-2cBCniTtxcGUjDpvFfVpw323a83/0RLSGJJY5l5lcomZWhYpU2cuLdsvYqMixvsdLJ9+sTdzEkju8J8ZHDM2nA==
+  /safe-buffer/5.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /sax/1.2.4:
+    dev: false
+    resolution:
+      integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+  /snekfetch/4.0.4:
+    deprecated: use node-fetch instead
+    dev: false
+    resolution:
+      integrity: sha512-dyycG9fvwtSJqKPfMVOpXt+60qvMGe7vWLwOJDiSJaiAx+hs2EnFChG2bXCWn7ulz+zGzrHdN9/yeEb0YqEPww==
+  /sodium-native/2.2.1:
+    dependencies:
+      ini: 1.3.5
+      nan: 2.10.0
+      node-gyp-build: 3.4.0
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-3CfftYV2ATXQFMIkLOvcNUk/Ma+lran0855j5Z/HEjUkSTzjLZi16CK362udOoNVrwn/TwGV8bKEt5OylsFrQA==
+  /string_decoder/1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  /tweetnacl/1.0.0:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-cT2LgY2kIGh0C/aDhtBHnmb8ins=
+  /util-deprecate/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+  /uws/99.0.0:
+    deprecated: stop using this version
+    dev: false
+    resolution:
+      integrity: sha512-gbzhpHHE37BsiCB1raq5Wzf4ENKTaxyg1gZ7LJ/Z0za9Ic6EEwq5VpfivNh9Or2Tpf3f3jPEWCGLVDle2MukTg==
+  /ws/5.2.2:
+    dependencies:
+      async-limiter: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==
+  /ytdl-core/0.24.0:
+    dependencies:
+      html-entities: 1.2.1
+      m3u8stream: 0.3.0
+      miniget: 1.3.0
+      sax: 1.2.4
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-VwCe+uhKz2M1cH0UEnNxVQyLwGK8DIJgbUPF9svEh0zxUl2DP7LORCDIloLqDUxR6JnC3s01GU0YPxiOmjcqVA==
+  github.com/hammerandchisel/erlpack/674ebfd3439ba4b7ce616709821d27630f7cdc61:
+    dependencies:
+      bindings: 1.3.0
+      nan: 2.10.0
+    dev: false
+    name: erlpack
+    requiresBuild: true
+    resolution:
+      tarball: 'https://codeload.github.com/hammerandchisel/erlpack/tar.gz/674ebfd3439ba4b7ce616709821d27630f7cdc61'
+    version: 0.1.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  buffered2: '*'
+  eris: '*'
+  erlpack: 'github:hammerandchisel/erlpack'
+  eventemitter3: '*'
+  node-opus: '*'
+  snekfetch: '*'
+  sodium-native: '*'
+  uws: '*'
+  ytdl-core: '*'

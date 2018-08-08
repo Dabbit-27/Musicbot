@@ -1,0 +1,27 @@
+{
+  "name": "jukebot",
+  "version": "5.1.8",
+  "description": "MusicBot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && node ./JukeBot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrimsonXV/JukeBot/JukeBot.git"
+  },
+  "author": "CrimsonXV",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "buffered2": "*",
+    "eris": "*",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "eventemitter3": "*",
+    "node-opus": "*",
+    "snekfetch": "*",
+    "sodium-native": "*",
+    "uws": "*",
+    "ytdl-core": "*"
+  }
+}
